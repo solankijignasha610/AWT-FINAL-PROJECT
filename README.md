@@ -35,8 +35,8 @@ Urban Fashion is a full-stack web application that allows users to browse fashio
 
 ### 🔹 Backend
 
-cd backend
-npm install
+cd backend <br>
+npm install <br>
 node server.js
 
 ### 🔹 Frontend
