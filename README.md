@@ -41,8 +41,8 @@ node server.js
 
 ### 🔹 Frontend
 
-cd frontend
-npm install
+cd frontend <br>
+npm install <br>
 npm start
 
 ---
