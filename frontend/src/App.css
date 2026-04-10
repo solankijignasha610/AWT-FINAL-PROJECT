@@ -1,0 +1,327 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+background:#f8fafc;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 70px;
+background: rgb(255, 255, 255);
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-family: 'Allura', cursive;
+font-size:30px;
+letter-spacing:2px;
+font-weight:700;
+color:#3a0535;
+padding:6px 16px;
+border:1px solid rgba(0,0,0,0.15);
+border-radius:8px;
+transition:all 0.3s ease;
+background:#f7f3f6;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transform:translateY(-2px);
+}
+
+.nav-links a{
+margin-left:25px;
+text-decoration:none;
+color:#4b0438;
+font-weight:500;
+transition:0.3s;
+text-decoration:none;
+font-size:16px;
+font-weight:500;
+color:#4a0d3a;
+
+padding:6px 14px;
+
+border:1px solid rgba(0,0,0,0.15);
+border-radius:6px;
+
+background:#fff;
+
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+
+transition:all 0.3s ease;
+}
+
+.nav-links a:hover{
+color:#5f335f;
+background:#f7f3f6;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transform:translateY(-2px);
+}
+
+/* HERO SECTION */
+
+.hero{
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#3c294d,#f7bad9);
+color:white;
+text-align:center;
+}
+
+.home-right h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.home-right p{
+color : rgb(79, 21, 80);
+font-size:20px;
+font-weight: 200;
+margin-bottom:25px;
+}
+
+.home-right .hero-btn{
+background:white;
+color:#3b1e41;
+border:none;
+padding:12px 28px;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+font-weight:600;
+}
+
+/* PRODUCTS */
+.products-page{
+padding:60px 80px;
+}
+
+.products-page h2{
+text-align:center;
+font-size:32px;
+margin-bottom:40px;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+/* PRODUCT CARD */
+
+.product-card{
+background:white;
+border-radius:12px;
+padding:20px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+.product-card button{
+background:#be89d0;
+color:white;
+border:none;
+padding: 18px, 20px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.product-card button:hover{
+background:#715271;
+transform:scale(1.05);
+}
+.product-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+.product-card img{
+width:100%;
+height:200px;
+object-fit:contain;
+}
+
+.product-card h3{
+margin:10px 0;
+font-size:18px;
+}
+
+.price{
+color:#9969a0;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.product-card button{
+background:#dc94d6;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+.price{
+color:#876489;
+font-weight:bold;
+margin:10px 0;
+}
+
+.cart-btn{
+background:#a78aab;
+color:white;
+border:none;
+flex : 1;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* LOGIN REGISTER */
+
+.auth-container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:80vh;
+}
+
+.auth-box{
+background:white;
+padding:40px;
+border-radius:10px;
+width:350px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+p{
+margin-top:20px;
+color:#434343;
+}
+
+.auth-box input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.auth-box button{
+width:100%;
+padding:12px;
+background:#706484;
+color:white;
+border:none;
+border-radius:6px;
+margin-top:10px;
+}
+
+.success-msg{
+margin-top:15px;
+color:green;
+font-weight:bold;
+}
+
+/* CART */
+
+.cart-page{
+text-align:center;
+padding:100px;
+font-size:20px;
+}
+/* Girls Collection Page */
+
+.girls-container{
+padding:40px;
+text-align:center;
+}
+
+.girls-title{
+font-size:32px;
+margin-bottom:30px;
+font-weight:bold;
+}
+
+.products-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap:30px;
+padding:20px;
+}
+/* boys collection*/
+
+.boys-container{
+padding:40px;
+text-align:center;
+}
+
+.boys-title{
+font-size:32px;
+margin-bottom:30px;
+font-weight:bold;
+}
+
+.products-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap:30px;
+padding:20px;
+}
+
+/* Wishlist Page */
+
+.wishlist-container{
+padding:40px;
+text-align:center;
+}
+
+.wishlist-title{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.wishlist-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap:30px;
+}
+
+.wishlist-card{
+border:1px solid #eee;
+border-radius:10px;
+padding:15px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+transition:0.3s;
+background:white;
+}
+
+.wishlist-card:hover{
+transform:scale(1.05);
+}
+
+.wishlist-card img{
+width:25%;
+border-radius:8px;
+}
+
+.remove-btn{
+margin-top:10px;
+background:red;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:5px;
+cursor:pointer;
+}
