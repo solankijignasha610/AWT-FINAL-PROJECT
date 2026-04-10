@@ -60,7 +60,7 @@ const seedProducts = async () => {
 };
 
 // ✅ MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/ecommerce")
+mongoose.connect(process.env.MONGODB_URI)
 .then(async () => {
   console.log("✅ MongoDB Connected");
 
